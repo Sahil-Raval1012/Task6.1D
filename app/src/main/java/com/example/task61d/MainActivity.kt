@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             val u = etUsername.text.toString().trim()
             val p = etPassword.text.toString()
             if (u.isEmpty() || p.isEmpty()) {
-                Toast.makeText(this, "Enter username and password", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Enter your username & password", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
             UserSession.username = u

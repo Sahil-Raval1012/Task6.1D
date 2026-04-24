@@ -6,21 +6,15 @@ import org.json.JSONArray
 import org.json.JSONObject
 import java.net.HttpURLConnection
 import java.net.URL
-
 object LlmClient {
-
     private const val API_KEY: String = "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"
-
     private const val MODEL = "llama-3.1-8b-instant"
     private const val ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
-
     data class LlmResponse(val prompt: String, val text: String, val usedFallback: Boolean)
-
     sealed class Result {
         data class Success(val data: LlmResponse) : Result()
         data class Failure(val prompt: String, val message: String) : Result()
     }
-
     suspend fun generate(prompt: String): Result = withContext(Dispatchers.IO) {
         if (API_KEY.isBlank()) {
             return@withContext Result.Success(
@@ -37,7 +31,6 @@ object LlmClient {
                 setRequestProperty("Content-Type", "application/json")
                 setRequestProperty("Authorization", "Bearer $API_KEY")
             }
-
             val body = JSONObject().apply {
                 put("model", MODEL)
                 put("messages", JSONArray().put(JSONObject().apply {
@@ -47,33 +40,26 @@ object LlmClient {
                 put("max_tokens", 300)
                 put("temperature", 0.7)
             }
-
             conn.outputStream.use { it.write(body.toString().toByteArray()) }
-
             val code = conn.responseCode
             val stream = if (code in 200..299) conn.inputStream else conn.errorStream
             val raw = stream.bufferedReader().use { it.readText() }
-
             if (code !in 200..299) {
                 return@withContext Result.Failure(prompt, "HTTP $code: ${raw.take(200)}")
             }
-
             val text = JSONObject(raw)
                 .optJSONArray("choices")
                 ?.optJSONObject(0)
                 ?.optJSONObject("message")
                 ?.optString("content")
                 ?: return@withContext Result.Failure(prompt, "Empty response from model")
-
             Result.Success(LlmResponse(prompt, text.trim(), usedFallback = false))
-
         } catch (e: Exception) {
             Result.Success(
                 LlmResponse(prompt, localFallback(prompt), usedFallback = true)
             )
         }
     }
-
     private fun localFallback(prompt: String): String {
         val lower = prompt.lowercase()
         return when {
