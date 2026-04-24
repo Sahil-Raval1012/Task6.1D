@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.task61d.app-mergeDebugResources-35:/layout/activity_main.xml",
+        "source": "com.example.task61d.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.task61d.app-mergeDebugResources-35:/layout/activity_signup.xml",
+        "source": "com.example.task61d.app-main-38:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.task61d.app-mergeDebugResources-35:/layout/activity_task.xml",
+        "source": "com.example.task61d.app-main-38:/layout/activity_task.xml"
+    },
+    {
+        "merged": "com.example.task61d.app-mergeDebugResources-35:/layout/activity_home.xml",
+        "source": "com.example.task61d.app-main-38:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.task61d.app-mergeDebugResources-35:/layout/activity_results.xml",
+        "source": "com.example.task61d.app-main-38:/layout/activity_results.xml"
+    },
+    {
+        "merged": "com.example.task61d.app-mergeDebugResources-35:/layout/item_result.xml",
+        "source": "com.example.task61d.app-main-38:/layout/item_result.xml"
+    },
+    {
+        "merged": "com.example.task61d.app-mergeDebugResources-35:/layout/activity_interests.xml",
+        "source": "com.example.task61d.app-main-38:/layout/activity_interests.xml"
+    },
+    {
+        "merged": "com.example.task61d.app-mergeDebugResources-35:/layout/item_task_card.xml",
+        "source": "com.example.task61d.app-main-38:/layout/item_task_card.xml"
+    },
+    {
+        "merged": "com.example.task61d.app-mergeDebugResources-35:/layout/item_question.xml",
+        "source": "com.example.task61d.app-main-38:/layout/item_question.xml"
+    }
+]

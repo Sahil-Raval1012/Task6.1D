@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Task6.1D</string>
+    <string name="welcome">Welcome,</string>
+    <string name="student">Student!</string>
+    <string name="lets_start">Lets Start Learning!</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="need_account">Need an Account?</string>
+    <string name="lets_get_setup">Lets get you</string>
+    <string name="setup">Setup!</string>
+    <string name="email">Email</string>
+    <string name="confirm_email">Confirm Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone">Phone Number</string>
+    <string name="create_account">Create new Account</string>
+    <string name="your_interests_top">Your</string>
+    <string name="your_interests_bottom">Interests</string>
+    <string name="select_topics">You may select upto 10 topics</string>
+    <string name="next">Next</string>
+    <string name="hello">Hello,</string>
+    <string name="task_due">You have %1$d task due</string>
+    <string name="submit">Submit</string>
+    <string name="continue_label">Continue</string>
+    <string name="answered_by_grok">Answered by AI</string>
+    <string name="hint">Hint</string>
+    <string name="get_hint">Get a hint</string>
+    <string name="get_explanation">Why is this correct?</string>
+    <string name="back">Back</string>
+    <string name="loading">Thinking…</string>
+</resources>
