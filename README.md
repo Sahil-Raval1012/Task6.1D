@@ -51,7 +51,7 @@ Task6.1D/
         │   ├── ResultsActivity.kt
         │   ├── adapters/TaskAdapter.kt
         │   ├── data/                  Models, dummy content, in-memory session
-        │   └── llm/LlmClient.kt       Gemini REST + offline fallback
+        │   └── com.example.task61d.llm/LlmClient.kt       Gemini REST + offline fallback
         └── res/
             ├── layout/                XML layouts for each screen + list items
             ├── drawable/              Backgrounds, buttons, icons (vector)
@@ -69,7 +69,7 @@ Task6.1D/
 ## Enable real LLM responses (optional)
 
 1. Get a free key at <https://aistudio.google.com/app/apikey>.
-2. Open `app/src/main/java/com/example/task61d/llm/LlmClient.kt`.
+2. Open `app/src/main/java/com/example/task61d/com.example.task61d.llm/LlmClient.kt`.
 3. Paste the key into the `API_KEY` constant. Run again — the app now calls Gemini live.
 
 If the key is blank or the network fails, the app uses a built-in fallback so every demo still runs.

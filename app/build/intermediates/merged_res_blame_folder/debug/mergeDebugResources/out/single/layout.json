@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-mergeDebugResources-35:/layout/activity_results.xml",
+        "source": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-main-38:/layout/activity_results.xml"
+    },
+    {
+        "merged": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-mergeDebugResources-35:/layout/activity_interests.xml",
+        "source": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-main-38:/layout/activity_interests.xml"
+    },
+    {
+        "merged": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-mergeDebugResources-35:/layout/activity_signup.xml",
+        "source": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-main-38:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.example.task61d.app-mergeDebugResources-35:/layout/activity_task.xml",
+        "source": "com.example.task61d.app-main-38:/layout/activity_task.xml"
+    },
+    {
+        "merged": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-mergeDebugResources-35:/layout/item_result.xml",
+        "source": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-main-38:/layout/item_result.xml"
+    },
+    {
+        "merged": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-mergeDebugResources-35:/layout/item_question.xml",
+        "source": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-main-38:/layout/item_question.xml"
+    },
+    {
+        "merged": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-mergeDebugResources-35:/layout/activity_task.xml",
+        "source": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-main-38:/layout/activity_task.xml"
+    },
+    {
+        "merged": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-mergeDebugResources-35:/layout/item_task_card.xml",
+        "source": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-main-38:/layout/item_task_card.xml"
+    },
+    {
+        "merged": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-mergeDebugResources-35:/layout/activity_main.xml",
+        "source": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.task61d.app-mergeDebugResources-35:/layout/activity_main.xml",
+        "source": "com.example.task61d.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-mergeDebugResources-35:/layout/activity_home.xml",
+        "source": "/Users/prakashraval/.gradle/daemon/8.7/com.example.task61d.app-main-38:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.task61d.app-mergeDebugResources-35:/layout/item_result.xml",
+        "source": "com.example.task61d.app-main-38:/layout/item_result.xml"
+    },
+    {
+        "merged": "com.example.task61d.app-mergeDebugResources-35:/layout/item_task_card.xml",
+        "source": "com.example.task61d.app-main-38:/layout/item_task_card.xml"
+    }
+]

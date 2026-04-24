@@ -1,7 +1,5 @@
 package com.example.task61d.data
-
 object DummyData {
-
     val topics = listOf(
         "Algorithms", "Data Structures", "Web Development", "Testing",
         "Machine Learning", "Databases", "Mobile Dev", "Cloud",
@@ -21,7 +19,6 @@ object DummyData {
             )
         }
     }
-
     private fun sampleQuestionsFor(topic: String): List<Question> = when (topic) {
         "Algorithms" -> listOf(
             Question(
