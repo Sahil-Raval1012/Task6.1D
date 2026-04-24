@@ -8,12 +8,10 @@
     android:foreground="?attr/selectableItemBackground"
     android:clickable="true"
     android:focusable="true">
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -24,13 +22,7 @@
                 android:layout_height="14dp"
                 android:src="@drawable/ic_sparkle"
                 android:contentDescription="@null"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="6dp"
-                android:text="@string/generated_by_ai"
-                android:textColor="@color/white"
-                android:textSize="11sp"/>
+
         </LinearLayout>
 
         <TextView
@@ -42,7 +34,6 @@
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold"/>
-
         <TextView
             android:id="@+id/tvDesc"
             android:layout_width="match_parent"
@@ -51,12 +42,11 @@
             android:text="Small Description for the generated Task"
             android:textColor="@color/white"
             android:textSize="13sp"/>
-
         <Space android:layout_width="match_parent" android:layout_height="36dp"/>
     </LinearLayout>
-
     <FrameLayout
         android:layout_width="40dp"
+        android:layout_marginTop="100dp"
         android:layout_height="40dp"
         android:layout_gravity="bottom|start"
         android:background="@drawable/bg_fab_arrow">

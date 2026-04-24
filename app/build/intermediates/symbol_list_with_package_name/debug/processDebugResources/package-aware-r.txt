@@ -3883,6 +3883,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string androidx_startup
 string answered_by_ai
+string answered_by_grok
 string app_name
 string appbar_scrolling_view_behavior
 string back

@@ -67,6 +67,7 @@ layout item_task_card
 mipmap ic_launcher
 mipmap ic_launcher_round
 string answered_by_ai
+string answered_by_grok
 string app_name
 string back
 string confirm_email

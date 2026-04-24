@@ -2,11 +2,14 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
-
 android {
     namespace = "com.example.task61d"
     compileSdk = 34
+    buildFeatures {
+        buildConfig = true
+        viewBinding = true
 
+    }
     defaultConfig {
         applicationId = "com.example.task61d"
         minSdk = 26
@@ -14,8 +17,8 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        val apiKey = project.findProperty("API_KEY")?.toString() ?: ""
-        buildConfigField("String", "API_KEY", "\"$apiKey\"")
+        val apiKey = project.findProperty("GROQ_API_KEY")?.toString() ?: ""
+        buildConfigField("String", "GROQ_API_KEY", "\"$apiKey\"")
     }
 
     buildTypes {
@@ -29,17 +32,10 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
-
     kotlinOptions {
         jvmTarget = "17"
     }
-
-    buildFeatures {
-        viewBinding = true
-        buildConfig = true
-    }
 }
-
 dependencies {
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.appcompat:appcompat:1.7.0")

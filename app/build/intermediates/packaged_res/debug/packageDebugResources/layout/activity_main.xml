@@ -42,23 +42,23 @@
         <EditText
             android:id="@+id/etUsername"
             android:layout_width="match_parent"
-            android:layout_height="52dp"
+            android:layout_height="45dp"
             android:hint="@string/username"
             android:background="@drawable/bg_input"
-            android:paddingHorizontal="16dp"
+            android:paddingHorizontal="10dp"
             android:textColor="@color/text_dark"
             android:textColorHint="#88000000"
             android:inputType="text"
             android:autofillHints="username"
-            android:layout_marginBottom="14dp"/>
+            android:layout_marginBottom="15dp"/>
 
         <EditText
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
-            android:layout_height="52dp"
+            android:layout_height="45dp"
             android:hint="@string/password"
             android:background="@drawable/bg_input"
-            android:paddingHorizontal="16dp"
+            android:paddingHorizontal="10dp"
             android:textColor="@color/text_dark"
             android:textColorHint="#88000000"
             android:inputType="textPassword"
@@ -68,12 +68,12 @@
         <Button
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
-            android:layout_height="52dp"
+            android:layout_height="45dp"
             android:text="@string/login"
             android:textColor="@color/white"
             android:textStyle="bold"
             android:textAllCaps="false"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:background="@drawable/bg_btn_green"
             android:contentDescription="@string/login"/>
 
@@ -85,7 +85,7 @@
             android:textColor="@color/white"
             android:textSize="15sp"
             android:padding="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:contentDescription="@string/need_account"/>
 
     </LinearLayout>
